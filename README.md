@@ -18,7 +18,6 @@ This is a Python Slack App which sends 2 jokes - during night and morning.
 - You need a Slack account + Slack Webhook to send slack notifications to your account
 - Install dependencies by running
 ```bash
-pip install tabulate
 pip install requests
 pip install beautifulsoup4
 ```
