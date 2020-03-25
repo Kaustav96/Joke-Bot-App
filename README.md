@@ -24,7 +24,7 @@ pip install beautifulsoup4
 ```
 - Clone this repo and create auth.py
 ```bash
-git clone https://github.com/Kaustav96/python-jokes-app.git
+git clone https://github.com/Kaustav96/Joke-Bot-App.git
 cd python-jokes-app
 touch auth.py
 ```
