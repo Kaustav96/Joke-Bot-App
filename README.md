@@ -1,5 +1,5 @@
 # Jokes Slackbot App
-This is a Python Slack App which sends 2 jokes - during night and morning.
+
 
 ![Jokes SlackBot App](https://github.com/Kaustav96/python-jokes-app/blob/master/slackbot-jokes-app.jpg)
 
