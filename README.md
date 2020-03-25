@@ -6,6 +6,7 @@ This is a Python Slack App which sends 2 jokes - during night and morning.
 ## Features
 - Sit back & relax - you will get 2 jokes daily in the morning as well as night.
 - Get Slack Notification
+- Depending upon time of day the image will be changing and send to slack with the jokes.
 - Jokes are coming from 2 API's that are famous for giving random jokes.
 - Its ROBUST! 
   - What if script fails?
