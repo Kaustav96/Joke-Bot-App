@@ -34,7 +34,7 @@ def slacker_file():
     def slackerfile():
         with open(file_path, 'rb') as f:
             payload = {"filename": file_path,
-                       "token": "xoxp-1004629925682-1005947718707-1010298318019-b59ee7277766e2c1bc0d0467350e1b75",
+                       "token": YOUR_SLACK_TOKEN,
                        "channels": "jokes"}
             requests.post("https://slack.com/api/files.upload", params=payload, files={'file': f})
 
