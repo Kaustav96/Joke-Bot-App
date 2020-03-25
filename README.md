@@ -1,2 +1,33 @@
-# python-jokes-app
+# Jokes Slackbot App
 This is a Python Slack App which sends 2 jokes - during night and morning.
+
+![Jokes SlackBot App](https://github.com/Kaustav96/python-jokes-app/blob/master/slackbot-jokes-app.jpg)
+
+## Features
+- Sit back & relax - you will get 2 jokes daily in the morning as well as night.
+- Get Slack Notification
+- Jokes are coming from 2 API's that are famous for giving random jokes.
+- Its ROBUST! 
+  - What if script fails?
+  - You get Slack notifications about the exceptions too.
+  - You have log files (check `bot.log`) too, to evaluate what went wrong
+
+## Installation
+- You need Python
+- You need a Slack account + Slack Webhook to send slack notifications to your account
+- Install dependencies by running
+```bash
+pip install tabulate
+pip install requests
+pip install beautifulsoup4
+```
+- Clone this repo and create auth.py
+```bash
+git clone https://github.com/Kaustav96/python-jokes-app.git
+cd python-jokes-app
+touch auth.py
+```
+- Write your Slack Webhook into auth.py
+```python
+DEFAULT_SLACK_WEBHOOK = 'https://hooks.slack.com/services/<your custome webhook url>'
+```
