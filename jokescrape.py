@@ -66,20 +66,7 @@ try:
         slacker()(slack_text)
         logging.warning('Jokes sent to slack channel #jokes')
         logging.warning(yo_mama_joke + ", "+chuck_norris_joke)
-        # sending email
-        # sending email
-        # with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
-        #     smtp.ehlo()  # identifies with mail server we are using
-        #     smtp.starttls()  # encrypt our traffic
-        #     smtp.ehlo()  # again run this to reidetify as encrypted connection
-        #
-        #     smtp.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
-        #     subject = 'Jokes Mail'
-        #     msg = f'Subject :{subject}\n\n{yo_mama_joke}\n\n{chuck_norris_joke}'
-        #
-        #     smtp.sendmail(EMAIL_ADDRESS, 'kaustavbanerjee96@gmail.com', msg)
-        #
-        #     # mqntilwxhmchhfas
+        
 
     main_jokes()
 
