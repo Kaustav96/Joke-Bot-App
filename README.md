@@ -8,23 +8,27 @@ This is a Python Slack App which sends 2 jokes - during night and morning.
 - Get Slack Notification
 - Depending upon time of day the image will be changing and send to slack with the jokes.
 - Jokes are coming from 2 API's that are famous for giving random jokes.
+- The Jokes from the APi's are stored in database also. (DB used - MongoDB)
 - Its ROBUST! 
   - What if script fails?
   - You get Slack notifications about the exceptions too.
   - You have log files (check `bot.log`) too, to evaluate what went wrong
 
 ## Installation
-- You need Python
-- You need a Slack account + Slack Webhook to send slack notifications to your account
+- You need Python.
+- You need MongoDB installed.
+  -Follw steps from the link provided to install MomgoDB. (https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
+- You need a Slack account + Slack Webhook to send slack notifications to your account.
 - Install dependencies by running
 ```bash
+pip install pymongo
 pip install requests
 pip install beautifulsoup4
 ```
 - Clone this repo and create auth.py
 ```bash
 git clone https://github.com/Kaustav96/Joke-Bot-App.git
-cd python-jokes-app
+cd Joke-Bot-App
 touch auth.py
 ```
 - Write your Slack Webhook into auth.py
